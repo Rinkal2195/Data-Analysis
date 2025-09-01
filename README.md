@@ -4,7 +4,7 @@ Each project focuses on extracting insights, visualizing trends, and supporting 
 
 ---
 
-## 🔹 Project 1: Production Data Analysis - MS Excel 
+## Project 1: Production Data Analysis - MS Excel 
 
 ### Overview  
 Analyzed Production dataset to identify Production cost, Average production CPU by product type.  
@@ -25,15 +25,15 @@ Excel, Pivot table
 
 ### Dashboard 
 
-## 🔹 Project 2: Amazon Sales Data Analysis - Power BI
+## Project 2: Amazon Sales Data Analysis - Power BI
 
-### 📌 Overview  
+### Overview  
 This project analyzes Amazon sales data to uncover customer purchasing patterns, top-performing products, and revenue trends.  
 The goal is to derive **actionable business insights** and build an interactive **dashboard** for better decision-making.  
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 - Analyze sales performance across categories and regions  
 - Identify **best-selling products** and **revenue contributors**  
 - Detect seasonal trends in Amazon sales  
@@ -42,19 +42,19 @@ The goal is to derive **actionable business insights** and build an interactive 
 
 ---
 
-## 🛠️ Tools & Technologies   
+## Tools & Technologies   
 - **Excel** → Data Profileling  
 - **Power BI / Tableau** → Dashboard creation  
 
 ---
 
-## 📂 Dataset  
+## Dataset  
 - **Source:** Amazon Sales Dataset (Kaggle / internal)  
 - **Size:** ~50,000+ transactions 
 
 ---
 
-## 🔍 Analysis Workflow  
+## Analysis Workflow  
 1. **Data Cleaning & Preprocessing**  
    - Removed duplicates & missing values  
    - Converted order date into proper format  
@@ -71,25 +71,23 @@ The goal is to derive **actionable business insights** and build an interactive 
 
 ---
 
-## 📈 Key Insights  
+## Key Insights  
 - **Shoes** categories generated the highest sales.  
 - **Festive months (Nov–Dec)** showed 35% sales spike.  
 - Customers Review had the **highest Sales value in SanDisk 16GB Memory card**.  
 
 ---
 
-## 🖼️ Dashboard Snapshot  
-![Amazon Dashboard](link-to-image.png)  
 
-## 🔹 Project 3: Online Book Store Data Analysis - SQL 
+## Project 3: Online Book Store Data Analysis - SQL 
 
-### 📌 Overview  
+### Overview  
 This project analyzes an **Online Bookstore dataset** using SQL to explore sales performance, customer trends, and inventory management.  
 The goal is to answer key business questions and provide insights into revenue, customers, and book categories.  
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 - Perform **data cleaning & transformation** using SQL  
 - Write SQL queries to answer **business questions**  
 - Study **customer purchase behavior**  
@@ -97,13 +95,13 @@ The goal is to answer key business questions and provide insights into revenue, 
 
 ---
 
-## 🛠️ Tools & Technologies   
+## Tools & Technologies   
 - **SQL Database**: MySQL 
 - **Tools Used**: MySQL Workbench / pgAdmin / 
 
 ---
 
-## 📂 Dataset  
+## Dataset  
  1. `books` – Book details (Book_ID, Title, Author, Genre, Published, Price, Stock)  
  2. `customers` – Customer info (Customer_ID, Name, Email, Phone Number, City, Country)  
  3. `orders` – Order details (Order_ID, Customer_ID, Book ID, Order_Date, Quantity, Total_Amount)
@@ -143,9 +141,70 @@ The goal is to answer key business questions and provide insights into revenue, 
 
 ---
 
-## 📈 Key Insights  
-- Frequently ordered book is Devolved zero administration process improvement.  
-- Fiction & Romance books contributed the highest revenue..  
-- 5% of books are completely out of stock, impacting sales.
+## Project 4 :Hospital Management Dashboard Project - SQL,Power BI, Exel
+
+## Project Overview
+
+This project analyzes hospital operations data (patients, doctors, appointments, billing, and treatments) and builds an interactive dashboard for hospital administrators.
+
+The goal is to provide insights for patient care, resource utilization, and revenue management.
+
+## Objectives
+
+Track patient admissions, discharges, and occupancy rates
+
+Monitor doctor performance & workload
+
+Analyze treatment outcomes & patient demographics
+
+Monitor billing & revenue by department
+
+Provide real-time decision support through dashboards
+
+## Tools & Technologies
+
+Database: MySQL
+
+Visualization: Power BI 
+
+Backend: SQL (queries, views)
+
+Data Sources: Synthetic hospital dataset (patients, doctors, billing)
+
+
+## Example Business Questions
+
+How many patients admitted & discharged each month?
+
+Which departments have the highest patient load?
+
+Who are the doctors by number of patients treated?
+
+What is the bed occupancy rate across departments?
+
+How many pending bills are yet to be cleared?
+
+## Dashboard KPIs
+
+Total Patients (Admitted, Discharged, Active)
+
+Top Departments by Patients
+
+Top Doctors by Patients Treated
+
+Total Revenue & Pending Bills
+
+## Dashboard Snapshot
+
+Power BI :
+
+Bar Chart → Doctors by Specialization
+
+Line Chart → Diseaseby Patients
+
+Donut Chart → Revenue by Payment Status
+
+KPI Cards → Total Patients, Avg. Age, Total Dr., Total Revenue
+
 
 ---
